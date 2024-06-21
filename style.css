@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* default style*/
@@ -13,10 +14,23 @@ ul {
 }
 
 header {
-    margin: 3rem 2rem;
+    margin: 1rem 7rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* navigation logo*/
+.nav-logo {
+    color: rgb(17, 17, 122);
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+.nav-logo:hover {
+    color: rgba(37, 90, 139, 0.658);
+    ;
 }
 
 .nav-items {
@@ -25,5 +39,52 @@ header {
 }
 
 .nav-item {
-    margin-right: 1rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+a {
+    color: rgb(8, 8, 12);
+}
+
+.nav-item a:hover {
+    color: rgb(44, 68, 121);
+}
+
+/* Main section */
+main {
+    margin: 1rem 7rem;
+    padding-top: 5%;
+}
+
+/* About me sectiom */
+.about-me {
+    font-size: 2rem;
+    font-weight: 40;
+}
+
+.name {
+    color: rgb(50, 78, 139);
+}
+
+/* contact-button */
+.contact-button {
+    display: inline-block;
+    background-color: rgb(44, 68, 121);
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 1.1em;
+    font-weight: 500;
+    /* display: inline-block;since we couldnt use
+     margin we used inline block to connvert inline to block level */
+    font-size: 0.8em;
+}
+
+/* social's logo */
+.social-logo {
+    font-size: 1.5em;
+    color: black;
+    padding: 0 0.5em 0 0;
 }
